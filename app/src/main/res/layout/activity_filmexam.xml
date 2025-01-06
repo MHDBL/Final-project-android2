@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    tools:context=".Page01">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/Hint1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginTop="25dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/titl6" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="خنده های اتوسا" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="190dp"
+                app:srcCompat="@drawable/text1" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                app:srcCompat="@drawable/text2" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/red"
+                android:textSize="20sp"
+                android:text="تاریخ اتمام اکران" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/yeloo"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:text="1402/02/22" />
+
+            <Button
+                android:id="@+id/btnsabt"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="@drawable/sabzsb"
+                android:layout_marginBottom="60dp"
+                android:text="خرید بلیط این فیلم" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#262626"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/scrollView2"
+        app:layout_scrollFlags="scroll|enterAlways">
+
+        <ImageView
+            android:id="@+id/menuicon"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            app:srcCompat="@drawable/menu" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/baraz"
+            android:gravity="center"
+            android:text="@string/filmvaserial"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <ImageView
+            android:id="@+id/goprofile"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/user" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#262626"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_scrollFlags="scroll|enterAlways">
+
+        <ImageView
+            android:id="@+id/Cinema"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            app:srcCompat="@drawable/cinemaic" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/filmvaserial" />
+
+        <ImageView
+            android:id="@+id/Ticket"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/ticket" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

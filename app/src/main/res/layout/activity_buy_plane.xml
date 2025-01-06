@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup_4"
+    tools:context=".Buy_plane">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/calibri"
+                android:gravity="center"
+                android:text="@string/buy_li"
+                android:textColor="#EF4A34"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/calibri"
+                android:gravity="center"
+                android:text="@string/plan"
+                android:textColor="#EF4A34"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/back_buyplan"
+                    android:padding="10dp"
+                    android:text="@string/yeksal"
+                    android:textColor="@color/black"
+                    tools:ignore="RtlHardcoded,TouchTargetSizeCheck" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/back_buyplan"
+                    android:padding="10dp"
+                    android:text="@string/shishmah"
+                    android:textColor="@color/black"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/back_buyplan"
+                    android:padding="10dp"
+                    android:text="@string/yekmah"
+                    android:textColor="@color/black"
+                    tools:ignore="RtlHardcoded,TouchTargetSizeCheck" />
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/back_buyplan2"
+                android:fontFamily="@font/calibri"
+                android:padding="15dp"
+                android:text="@string/pardakht"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnsabtnahaei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/back_buyplan2"
+                android:fontFamily="@font/calibri"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/sabtnam"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkbox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/calibri"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:text="@string/buylater"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkbox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/calibri"
+                android:minHeight="48dp"
+                android:text="@string/role"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="204dp"
+                android:layout_height="198dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                app:srcCompat="@drawable/logo" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

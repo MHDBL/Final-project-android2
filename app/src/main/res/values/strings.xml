@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">سینما تیکت</string>
+    <string name="vorod">ورود</string>
+    <string name="username">نام کاربری</string>
+    <string name="pass">کلمه عبور</string>
+    <string name="Hint1">حساب کاربری ندارید؟ساخت حساب</string>
+    <string name="Hint2">نیاز به حساب کاربری ندارم</string>
+    <string name="makelove">❤️ساخته شده با عشق❤️</string>
+    <string name="appname">سینما تیکت</string>
+    <string name="text1">بهانه ای برای دور هم جمع شدن</string>
+    <string name="ready">آماده ماجراجویی هستی؟</string>
+    <string name="next">بزن بریم</string>
+    <string name="buyticket">⭐️خرید بلیط⭐️</string>
+    <string name="back">صفحه قبل</string>
+    <string name="front">صفحه بعد</string>
+    <string name="movie">⭐️تماشای انلاین فیلم و سریال⭐️</string>
+    <string name="waite">لطفا صبر کنید...</string>
+    <string name="vorodbebarname">ورود به برنامه</string>
+    <string name="edame">ادامه</string>
+    <string name="sabtnam">ثبت نام</string>
+    <string name="name">نام</string>
+    <string name="family">نام خانوادگی</string>
+    <string name="nextpage">صفحه بعد</string>
+    <string name="lastpage">صفحه قبل</string>
+    <string name="taeidphone">تایید شماره تلفن</string>
+    <string name="phone">(+98)  __________</string>
+    <string name="code_taeid">کد تایید</string>
+    <string name="sabtphone">ثبت و برسی</string>
+    <string name="buy_li">خرید اشتراک</string>
+    <string name="plan">انتخاب پلن اشتراکی</string>
+    <string name="yekmah">یک ماهه</string>
+    <string name="shishmah">شیش ماهه</string>
+    <string name="yeksal">یک ساله</string>
+    <string name="pardakht">پرداخت</string>
+    <string name="buylater">بعدا اشتراک میخرم</string>
+    <string name="role">با تمامی قوانین موافقم</string>
+    <string name="signupsucc1">تبریک</string>
+    <string name="signupsucc2">ثبت نام شما</string>
+    <string name="signupsucc3">با موفقیت انجام شد</string>
+    <string name="version">ورژن برنامه:1.1.1</string>
+    <string name="cinema">سینما</string>
+    <string name="irani">فیلم و سریال ایرانی</string>
+    <string name="kharegi">فیلم و سریال خارجی</string>
+    <string name="animation">انیمشین</string>
+    <string name="mostanad">مستند</string>
+    <string name="trailer">جدید ترین تریلرها</string>
+    <string name="filmname">لطفا نام فیلم مورد نظر را وارد کنید</string>
+    <string name="sandali">شماره صندلی</string>
+    <string name="radif">شماره ردیف</string>
+    <string name="saabt_va_kharid">ثبت و خرید</string>
+    <string name="filmvaserial">فیلم و سریال</string>
+    <string name="kharidblit">خرید بلیط</string>
+
+
+</resources>

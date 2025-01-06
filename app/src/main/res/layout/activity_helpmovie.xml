@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    android:orientation="vertical"
+    tools:context=".Helpmovie">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="261dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="movie.json"
+                app:lottie_loop="true" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/calibri"
+                android:gravity="center"
+                android:text="@string/movie"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="245dp"
+                android:layout_marginTop="27dp"
+                app:srcCompat="@drawable/text02" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="164dp"
+                android:layout_height="139dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/logo" />
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn01"
+                    android:text="@string/back"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn01"
+                    android:text="@string/front"
+                    android:textStyle="bold" />
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

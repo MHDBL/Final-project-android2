@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    tools:context=".Page01">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/Hint1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:fontFamily="@font/baraz"
+                android:gravity="center"
+                android:text="@string/irani"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/titl5" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/baraz"
+                android:gravity="center"
+                android:text="@string/kharegi"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/titl3" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/baraz"
+                android:gravity="center"
+                android:text="@string/animation"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/titl1" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/baraz"
+                android:gravity="center"
+                android:text="@string/mostanad"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/titl4" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/baraz"
+                android:gravity="center"
+                android:text="@string/trailer"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="60dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/titl2" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#262626"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/scrollView2"
+        app:layout_scrollFlags="scroll|enterAlways">
+
+        <ImageView
+            android:id="@+id/menuicon"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            app:srcCompat="@drawable/menu" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/baraz"
+            android:gravity="center"
+            android:text="@string/filmvaserial"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <ImageView
+            android:id="@+id/goprofile"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/user" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#262626"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_scrollFlags="scroll|enterAlways">
+
+        <ImageView
+            android:id="@+id/Cinema"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            app:srcCompat="@drawable/cinemaic" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/filmvaserial" />
+
+        <ImageView
+            android:id="@+id/Ticket"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/ticket" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

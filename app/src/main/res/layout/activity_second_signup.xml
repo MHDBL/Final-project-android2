@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup_2"
+    tools:context=".Second_signup">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/baraz"
+                android:gravity="center"
+                android:text="@string/taeidphone"
+                android:textColor="#B8A8DD"
+                android:textSize="50sp" />
+
+            <EditText
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/back_second_signup"
+                android:fontFamily="@font/baraz"
+                android:gravity="center"
+                android:hint="@string/phone"
+                android:inputType="number"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:paddingRight="25dp"
+                android:textColorHint="@color/white"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/back_second_signup"
+                android:fontFamily="@font/baraz"
+                android:gravity="center"
+                android:hint="@string/code_taeid"
+                android:inputType="number"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:paddingRight="25dp"
+                android:textColorHint="@color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/back_second_signup"
+                android:fontFamily="@font/baraz"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/sabtphone"
+                android:textColor="@color/green"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="204dp"
+                android:layout_height="198dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                app:srcCompat="@drawable/logo" />
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|bottom"
+                android:layout_marginTop="60dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/goback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:layout_margin="5dp"
+                    android:contentDescription="@string/lastpage"
+                    android:src="@drawable/leftporpule"
+                    app:backgroundTint="#B3A1DA"
+                    app:fabSize="auto"
+                    app:rippleColor="#012D66" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/gonext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_margin="5dp"
+                    android:contentDescription="@string/nextpage"
+                    android:src="@drawable/rightporpule"
+                    app:backgroundTint="#B3A1DA"
+                    app:fabSize="auto"
+                    app:rippleColor="#012D66" />
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

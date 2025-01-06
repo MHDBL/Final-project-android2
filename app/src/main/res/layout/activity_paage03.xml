@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    tools:context=".Page01">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/Hint1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/sandali" />
+
+            <EditText
+                android:id="@+id/Edtfilmnamae"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/filmname"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/filmname"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <EditText
+                    android:id="@+id/Edtradif"
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:ems="10"
+                    android:layout_marginTop="30dp"
+                    android:padding="14dp"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center"
+                    android:hint="@string/radif"
+                    android:background="@drawable/filmname2"
+                    android:inputType="textPersonName"
+                    android:textColorHint="@color/black" />
+
+                <EditText
+                    android:id="@+id/Edtsandali"
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/black"
+                    android:background="@drawable/filmname2"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/sandali"
+                    android:inputType="textPersonName"
+                    android:padding="14dp"
+                    android:textColorHint="@color/black" />
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:background="@drawable/filmname2"
+                android:padding="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/role" />
+            <Button
+                android:id="@+id/btnsabt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sabt"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:padding="15dp"
+                android:text="@string/saabt_va_kharid" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#262626"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/scrollView2"
+        app:layout_scrollFlags="scroll|enterAlways">
+
+        <ImageView
+            android:id="@+id/menuicon"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            app:srcCompat="@drawable/menu" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/baraz"
+            android:gravity="center"
+            android:text="@string/kharidblit"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <ImageView
+            android:id="@+id/goprofile"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/user" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#262626"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_scrollFlags="scroll|enterAlways">
+
+        <ImageView
+            android:id="@+id/Cinema"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            app:srcCompat="@drawable/cinemaic" />
+
+        <ImageView
+            android:id="@+id/film"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/filmvaserial" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/ticket" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
